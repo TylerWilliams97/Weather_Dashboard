@@ -4,21 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <header class="container">
-        <h2 class="text-center">Weather Dashboard</h2>
+    <header class="jumbotron jumbotron-fluid" style="padding-top: 10px;">
+        <div class="container">
+          <h1 class="display-4 col" >Weather Dashboard</h1>
+          <p class="lead col"></p>
+        </div>
     </header>
-    <div>
-        <nav>
-            <input id="cityInput">
-            <button id="inputBtn">Search</button>
-        </nav>
+   
+    <nav class="container">
+        <div class="input-group mb-3 row-sm">
+          
+            <input id="cityInput" type="text" class="form-control" placeholder="City Name">
+            <button id="inputBtn" type="button" class="btn btn-outline-secondary">Search</button>
+            
+        </div>
+    </nav>   
+           
+    
+    
+    
         <article id="weatherblocks">
+               
+            </article>
 
-        </article>
-    </div>
+        
+    
 
 
 
