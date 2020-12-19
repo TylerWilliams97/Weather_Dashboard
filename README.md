@@ -5,5 +5,5 @@ using javascript magic this simple interface can show you the weather for any ci
 
 [Weather Dashboard!](https://tylerwilliams97.github.io/Weather_Dashboard/)
 
-![project image](C:\projects\Homeworks\Weather_Dashboard\assets\DashboardScreenshot.png)
+![](https://github.com/TylerWilliams97/Weather_Dashboard/blob/main/assets/DashboardScreenshot.png?raw=true)
 
